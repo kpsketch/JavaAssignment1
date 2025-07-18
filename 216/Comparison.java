@@ -5,11 +5,11 @@ public class Comparison{// adding new class
     Scanner input = new Scanner(System.in);
     System.out.print("Enter First integer");// adding first integer
     int x = input.nextInt();
-    System.out.print("Enter second integer");
+    System.out.print("Enter second integer");//adding second integer
     int y = input.nextInt();
     if (x > y) {
             System.out.println(x + " is larger");
-        } else if (num2 > num1) {
+        } else if (y > x) {
             System.out.println(y + " is larger");
         } else {
             System.out.println("These numbers are equal");
