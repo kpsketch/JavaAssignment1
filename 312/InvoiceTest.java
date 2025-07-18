@@ -8,7 +8,7 @@ public class InvoiceTest {
       Invoice invoice1 = new Invoice("part1", "tabletop",5, 12.99);
       Invoice invoice2 = new Invoice("part2", "tablelegs", -6, -8.50);
 
-      // display initial invoice details
+      // displaying results
       System.out.println("Invoice 1 Details:");
       System.out.println("Part Number: " + invoice1.getPartNumber());
       System.out.println("Description: " + invoice1.getPartDescription());
